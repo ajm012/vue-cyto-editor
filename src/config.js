@@ -12,6 +12,6 @@ var config = {
 
 let app = firebase.initializeApp(config)
 let db = app.database()
-let articlesRef = db.ref('articles')
+let nodesRef = db.ref('nodes')
 
-export default articlesRef
+export default nodesRef
