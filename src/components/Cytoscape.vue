@@ -1,6 +1,7 @@
 <template>
   <div id="cytoscape" ref="cytoscape"></div>
 </template>
+
 <script>
 import CyObj from './cy-object'
 
@@ -17,6 +18,7 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 #cytoscape {
   width: 100%;

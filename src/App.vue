@@ -82,7 +82,6 @@ export default {
     },
     preConfig (cytoscape) {
       console.log('calling pre-config')
-      // contextMenus(cytoscape, jquery)
       cytoscape.use(cxtmenu)
     },
     afterCreated (cy) {
